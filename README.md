@@ -42,28 +42,28 @@ Learn to combine data from multiple tables using different SQL join types: INNER
 ### 1. INNER JOIN
 Returns only rows where there is a match in both tables.
 
-SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
-FROM Customers
-INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
+-SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
+-FROM Customers
+-INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
 
 ## LEFT JOIN
 
-SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
-FROM Customers
-LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
+-SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
+-FROM Customers
+-LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
-##RIGHT JOIN 
+## RIGHT JOIN 
 
-SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
-FROM Customers
-RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
+-SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
+-FROM Customers
+-RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
 ## FULL JOIN 
 
-SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
-FROM Customers
-FULL OUTER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
+-SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
+-FROM Customers
+-FULL OUTER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
 
 
