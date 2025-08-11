@@ -8,12 +8,12 @@ Learn to combine data from multiple tables using different SQL join types: INNER
 - MySQL Workbench
 
 ## Contents
-- 
--Task5-SQL Joins (Inner, Left, Right, Full) → SQL script for Task 5  
--customers.csv and Orders.csv → Sample dataset for practice  
--screenshots → Final output screenshots  
--README.md → Project documentation  
+- `Task5-SQL_Joins.sql` → SQL script for Task 5  
+- `customers.csv` and `orders.csv` → Sample datasets for practice  
+- `screenshots/` → Final output screenshots  
+- `README.md` → Project documentation  
 
+---
 
 ## Tables Used
 
@@ -39,33 +39,31 @@ Learn to combine data from multiple tables using different SQL join types: INNER
 
 ## SQL Queries and Join Types
 
-### 1. INNER JOIN
+### 1. INNER JOIN  
 Returns only rows where there is a match in both tables.
 
--SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
--FROM Customers
--INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
+SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
+FROM Customers
+INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
 ## LEFT JOIN
 
--SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
--FROM Customers
--LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
+SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
+FROM Customers
+LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
-## RIGHT JOIN 
+##  RIGHT JOIN
 
--SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
--FROM Customers
--RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
+SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
+FROM Customers
+RIGHT JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
-## FULL JOIN 
+## FULL JOIN
 
--SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
--FROM Customers
--FULL OUTER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
-
-
+SELECT Customers.CustomerName, Orders.Product, Orders.Quantity
+FROM Customers
+FULL OUTER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
 Author
 **Name:** Bhargavi Thammina  
