@@ -68,11 +68,10 @@ FULL OUTER JOIN Orders ON Customers.CustomerID = Orders.CustomerID;
 
 
 Author
-Name: Bhargavi Thammina
-Email: bhargavithammina@gmail.com
-LinkedIn: linkedin.com/in/bhargavi-thammina-846053263
-GitHub: github.com/Bhargavi-Thammina
-Location: Madhura Nagar, Vijayawada, Andhra Pradesh, India
-
+**Name:** Bhargavi Thammina  
+**Email:** bhargavithammina@gmail.com  
+**LinkedIn:** [linkedin.com/in/bhargavi-thammina-846053263](https://linkedin.com/in/bhargavi-thammina-846053263)  
+**GitHub:** [github.com/Bhargavi-Thammina](https://github.com/Bhargavi-Thammina)
+---
 
 
