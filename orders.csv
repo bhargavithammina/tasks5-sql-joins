@@ -1,0 +1,5 @@
+OrderID,CustomerID,Product,Quantity,Price
+101,1,Laptop,1,50000
+102,2,Mouse,2,500
+103,1,Keyboard,1,1500
+104,4,Monitor,1,7000
