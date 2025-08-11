@@ -39,7 +39,7 @@ Learn to combine data from multiple tables using different SQL join types: INNER
 
 ## SQL Queries and Join Types
 
-### 1. INNER JOIN  
+## INNER JOIN  
 Returns only rows where there is a match in both tables.
 
 
@@ -79,6 +79,7 @@ Author
 **LinkedIn:** [linkedin.com/in/bhargavi-thammina-846053263](https://linkedin.com/in/bhargavi-thammina-846053263)  
 **GitHub:** [github.com/Bhargavi-Thammina](https://github.com/Bhargavi-Thammina)
 ---
+
 
 
 
